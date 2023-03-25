@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Coin Toss</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+        <!-- Animate.css -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            rel="stylesheet">
+        <!-- Custom Css for color -->
+        <link rel="stylesheet" href="/files/styles.css">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="files/resources/favicon.ico">
+    </head>
+
+    <body>
+
+        <div class="container-fluid text-center py-4 " id="title">
+            <h1>Coin Toss</h1>
+        </div>
+        <div class="text-center pt-xxl-5">
+            <div class="rounded-clickable mx-auto mt-3 ">
+                <img src="files/resources/click-coin.svg" id="coinImage"
+                    alt="Coin" width="200" height="200" class="animate__animated
+                    animate__flipInX">
+            </div>
+        </div>
+
+        <!-- Preload the images on page load -->
+        <script>
+            const images = [
+                'files/resources/heads.svg',
+                'files/resources/tails.svg'
+            ];
+            images.forEach((image) => {
+                const img = new Image();
+                img.src = image;
+            });
+        </script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+        <!-- Custom JS for animations and functionality -->
+        <script src="files/script.js"></script>
+    </body>
+</html>

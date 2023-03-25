@@ -1,0 +1,16 @@
+
+      /* CSS for the heading */
+      #title {
+        background-color: #c2ded1; /* Heading background color */
+        color: #303A52; /* Heading color */
+      }
+      body {
+        background-color: #b3b5b3; /* remaining body color */
+      }
+  
+      .rounded-clickable {
+        cursor: pointer;
+        border-radius: 50%;
+        overflow: hidden;
+        display: inline-block;
+      }
