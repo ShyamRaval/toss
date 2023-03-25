@@ -1,7 +1,6 @@
 
             // Get the coin image element
             const coinImage = document.getElementById('coinImage');
-
             // Change the coin image randomly on click with flip animation
             coinImage.addEventListener('click', function () {
                 // Flip out the coin image
