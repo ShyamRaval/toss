@@ -14,10 +14,6 @@ body {
 /* remaining body color */
 background-color: #b3b5b3; 
 }
-
-body{
-	background-color: #eee;
-}
 .nav-link {
     display: block;
     padding: .5rem 1rem;
